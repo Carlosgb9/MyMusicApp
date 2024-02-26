@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyMusic App</string>
+    <string name="hint.search">Search for a song</string>
+    <string name="text.no_song">Select a song to play it</string>
+    <string name="text.song_data">%1$s \n %1$s</string>
+    <string name="menu_item.about">About this app</string>
+    <string name="menu_item.search">Search</string>
+    <string name="menu_item.exit">Close app</string>
+    <string name="dialog.about.title">About MyMusic App</string>
+    <string name="dialog.about.body">This app was made by Ariel Gómez</string>
+    <string name="dialog.about.positive">Cool!</string>
+    <string name="dialog.close.body">Do you want to close the app?</string>
+    <string name="dialog.close.positive">Yes</string>
+    <string name="dialog.close.negative">No</string>
+    <string name="toast.no_permission">This app cannot run without permissions</string>
+    <string name="toast.no_song">Please choose a song first</string>
+    <string name="toast.search.todo">This will be available in the next version. Stay tuned!</string>
+</resources>
