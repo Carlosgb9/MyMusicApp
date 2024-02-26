@@ -250,7 +250,7 @@ public class MainActivity extends AppCompatActivity {
         String selection = MediaStore.Audio.Media.DURATION + " >= ? AND " + MediaStore.Audio.AudioColumns.DATA + " NOT LIKE ?";
 
         String[] selectionArgs = new String[] {
-                String.valueOf(TimeUnit.MILLISECONDS.convert(2, TimeUnit.MINUTES)), "%/WhatsApp/%"
+                String.valueOf(TimeUnit.MILLISECONDS.convert(2, TimeUnit.SECONDS)), "%/WhatsApp/%"
         };
         String sortOrder = MediaStore.Audio.Media.DISPLAY_NAME + " ASC";
 
